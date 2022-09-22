@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+input, button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+#people {
+    top: 10px;
+}
+#sick-people {
+    top: 50px;
+}
+
+#infection-radius {
+    top: 90px;
+}
+#infection-probability {
+    top: 130px
+}
+#start {
+    top: 170px;
+    left: 10px;
+}
+
+#pause {
+    top: 170px;
+    left: 125px;
+}
+
+#reset {
+    top: 220px;
+    left: 60px;
+}
+canvas {
+    border: 5px solid black;
+    border-radius: 5px;
+    margin-left: 200px;
+}
+#canvas2 {
+    border: 5px solid black;
+    border-radius: 5px;
+}
+body {
+    background-color: lightgray;
+}
+#parameters {
+    background-color: aliceblue;
+    padding: 5px;
+    border-radius: 5px;
+    position: absolute;
+    left: 40px;
+    top: 250px;
+}
+
+#infection-lethality {
+    top: 320px;
+}
+
+#infection-duration {
+    top: 360px;
+}
+
+#social-distance {
+    top: 400px;
+}
+
+footer {
+    position: absolute;
+    background-color: aliceblue;
+    padding: 10px 44px;
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+    opacity: 1;
+    top: 450px;
+    left: 0px;
+}

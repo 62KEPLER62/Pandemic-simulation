@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corona Simulation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <input type="text" id="people" placeholder="Number of healty people">
+    <input type="text" id="sick-people" placeholder="Number of sick people">
+    <input type="text" id="infection-radius" placeholder="Infection Radius">
+    <input type="text" id="infection-probability" placeholder="Infection Probability">
+    <input type="text" id="infection-lethality" placeholder="Infection Lethality">
+    <input type="text" id="infection-duration" placeholder="Infection Duration">
+    <input type="text" id="social-distance" placeholder="Social Distance Probability">
+    <h3 id="parameters">Parameters</h3>
+    <footer><em>Made by Rüzgar Erçen</em></footer>
+    <button id="start" onclick="start()">Start</button>
+    <button id="pause" onclick="pause()">Pause</button>
+    <button id="reset" onclick="reset()">Reset</button>
+    <canvas id="canvas"></canvas>
+    <canvas id="canvas2"></canvas>
+    <script src="utils.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
