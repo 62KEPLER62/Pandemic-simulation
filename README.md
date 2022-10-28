@@ -1,6 +1,6 @@
 # Pandemic-simulation
-Pandemic simulation with javascript
-This is a simple pandemix simulation that I made using javascript.
+Pandemic simulation with javascript.
+This is a simple pandemic simulation that I made using javascript.
 The graphics are made with javascript canvas and css.
 The graph on the bottom of the page shows the number of infected and healthy people and is also drawn with javascript canvas.
 
